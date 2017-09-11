@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<body>
+    <h1>Crystals Collector!</h1>
+    <div id="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <br>
+        <p> There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score</p>
+        <br>
+        <p> You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it.</p>
+        <br>
+        <p> Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+    <div>
+        <div id="current-random-num">
+        </div>
+        <div id="wins-losses">
+            <p>Wins: <span id="wins"></span></p>
+            <p>Losses: <span id="losses"></span></p>
+        </div>
+    </div>
+    <div id="crystal-container">
+        <div class="crystals" id="crystal-1">
+            <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" class="crystal-image" />
+        </div>
+        <div class="crystals" id="crystal-2">
+            <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" class="crystal-image" />
+        </div>
+        <div class="crystals" id="crystal-3">
+            <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" class="crystal-image" />
+        </div>
+        <div class="crystals" id="crystal-4">
+            <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" class="crystal-image" />
+        </div>
+        <div id="total-header">Your total score is: </div>
+        <div id="total-score"><span id="total"></span></div>
+    </div>
+    <script src="assets/javascript/crystals.js" type="text/javascript">
+    </script>
+</body>
+
+</html>

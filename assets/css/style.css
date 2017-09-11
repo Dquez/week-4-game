@@ -1,0 +1,21 @@
+body {
+	margin: 0 auto;
+	padding:1em;
+}
+
+
+
+.crystal-image {
+    width: 150px;
+    height: 150px;
+}
+
+.crystals {
+    float: left;
+    margin-left: 1em;
+}
+
+#total-header {
+    float: left;
+    clear: both;
+}
