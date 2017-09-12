@@ -19,3 +19,8 @@ body {
     float: left;
     clear: both;
 }
+
+#total-score {
+	float:left;
+	clear:both;
+}
