@@ -1,8 +1,66 @@
 body {
-	margin: 0 auto;
-	padding:1em;
+    margin: 0 auto;
+    padding: 1em;
+    color: white;
+    font-family: 'Tillana', cursive;
+    font-size: 1.1em;
 }
 
+#background {
+    background: url(https://serendipitycrystals.co.uk/wp-content/uploads/2014/08/meteor_Jack_Fusco_Photography_Acadia_Natinal_Park_Maine.jpg) no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+
+#instructions {
+    max-width: 50%;
+    margin: 2em auto;
+    position: relative;
+}
+
+#data-for-game {
+    max-width: 50%;
+    margin: 2em auto;
+    position: relative;
+    left: 20%;
+}
+
+#crystal-container {
+    margin: 2em auto;
+    position: relative;
+    left: 23%;
+}
+
+#crystal-1 {
+    position: relative;
+    left: -2em;
+    top: 10em;
+}
+
+#crystal-4 {
+    position: relative;
+    left: 2em;
+    top: 10em;
+}
+
+
+
+#score-container {
+
+    margin: 2em auto;
+    position: relative;
+    max-width: 50%;
+    width: 200px;
+    height: 20px;
+    left: 0;
+}
 
 
 .crystal-image {
@@ -16,11 +74,21 @@ body {
 }
 
 #total-header {
-    float: left;
+
     clear: both;
 }
 
 #total-score {
-	float:left;
-	clear:both;
+
+    clear: both;
+}
+
+
+
+.shooting-star {
+    background: white;
+    border-radius: 8px;
+    height: 8px;
+    width: 8px;
+    visibility: hidden;
 }
