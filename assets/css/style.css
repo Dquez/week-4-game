@@ -38,17 +38,6 @@ body {
     left: 23%;
 }
 
-#crystal-1 {
-    position: relative;
-    left: -2em;
-    top: 10em;
-}
-
-#crystal-4 {
-    position: relative;
-    left: 2em;
-    top: 10em;
-}
 
 
 
@@ -70,11 +59,11 @@ body {
 
 .crystals {
     float: left;
-    margin-left: 1em;
+    margin:0 2em;
 }
 
 #total-header {
-
+    margin-top:2em;
     clear: both;
 }
 
@@ -85,7 +74,15 @@ body {
 
 
 
-.shooting-star {
+.shooting-star-fast {
+    background: white;
+    border-radius: 8px;
+    height: 8px;
+    width: 8px;
+    visibility: hidden;
+}
+
+.shooting-star-slow {
     background: white;
     border-radius: 8px;
     height: 8px;
